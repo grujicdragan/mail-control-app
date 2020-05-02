@@ -4,7 +4,7 @@ const nodemailer = require('nodemailer');
 const cors = require('cors');
 
 const app = express();
-app.use(cors({ origin: "*" }));
+app.use(cors({ "origin": "*" }));
 app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 3000;
